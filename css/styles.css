@@ -1,0 +1,241 @@
+body {
+    color: #fff;
+    background-attachment: fixed;
+    background-color: black;
+    background-image: url('../images/background-image-css-HD1-1.jpg');
+    background-repeat: no-repeat;
+}
+
+#festival-title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia,"DejaVu Serif",Norasi,serif;
+}
+
+header,
+footer,
+.panel-title,
+.caption > h4 {
+    font-family: Verdana,"DejaVu Sans","Bitstream Vera Sans",Geneva,sans-serif;
+}
+
+.panel-body,
+.thumbnail .caption h4 + p {
+    font-family: Monaco,"DejaVu Sans Mono","Lucida Console","Andale Mono",monospace;
+}
+
+section,
+footer {
+    margin: 30px 0;
+}
+
+nav {
+    margin: 0 20px;
+}
+
+a,
+a:visited,
+a:focus,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: #ec971f;
+}
+
+a:hover,
+a:active {
+    color: #fff;
+}
+
+#festival-title,
+#news h3,
+#news h4,
+#news h5 {
+    text-shadow: 2px 2px 5px black;
+}
+
+.btn-festival,
+.btn-festival:visited,
+.btn-festival:focus {
+    border-color: #080808;
+    color: #ec971f;
+    background-color: #222;
+}
+
+.btn-festival:hover,
+.btn-festival:active {
+    color: #9d9d9d;
+}
+
+.navbar-header a,
+.navbar-header a:visited,
+.navbar-header a:hover,
+.navbar-header a:focus,
+.navbar-header a:active {
+    border: none;
+}
+
+form.navbar-right .btn-festival,
+form.navbar-right .btn-festival:visited,
+form.navbar-right .btn-festival:focus {
+    border-color: #080808;
+    color: #222;
+    background-color: #ec971f;
+}
+
+form.navbar-right .btn-festival:hover,
+form.navbar-right .btn-festival:active {
+    background-color: #9d9d9d;
+}
+
+.navbar-form input {
+    width: 275px !important;
+}
+
+#soc-networks .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#soc-networks .fa {
+    position: relative;
+    top: 4px;
+}
+
+.navbar-header .fa {
+    position: relative;
+    top: -5px;
+}
+
+.form-group {
+    margin-right: 20px;
+}
+
+.inline-form input {
+    display: inline-block;
+    width: 100px;
+}
+
+#myCarousel {
+    width: 100%;
+}
+
+.carousel img {
+    width: auto;
+    height: 400px;
+    max-height: 400px;
+}
+
+a.carousel-control,
+a.carousel-control:visited,
+a.carousel-control:focus,
+a.carousel-control:hover,
+a.carousel-control:active {
+    color: inherit;
+}
+
+#background-fluid {
+    margin: 0 -15px;
+    padding: 20px 0;
+    border-top: 1px solid #080808;
+    border-bottom: 1px solid #080808;
+    background-color: #222;
+}
+
+.panel-title,
+.thumbnail .caption h4 {
+    font-weight: bold;
+}
+
+.panel {
+    min-height: 260px;
+}
+
+.panel-festival {
+    border: 2px solid #ec971f;
+}
+
+.panel-festival > .panel-heading {
+    border: none;
+    color: #fff;
+    background-color: #ec971f;
+}
+
+.panel-body {
+    color: black;
+}
+
+strong {
+    color: #ec971f;
+}
+
+.thumbnail {
+    min-height: 360px;
+    border-color: #080808;
+    background-color: #222;
+}
+
+.thumbnail.only-img {
+    margin-bottom: 10px;
+    min-height: auto;
+}
+
+.thumbnail .caption h4 {
+    color: #9d9d9d;
+}
+
+.thumbnail .caption h4 + p {
+    color: #fff;
+}
+
+.col-bottom {
+    display: inline-block;
+    float: none;
+    vertical-align: bottom;
+}
+
+.legend {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#news > .row {
+    margin-bottom: 25px;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.news-title > * {
+    display: inline-block;
+}
+
+.news-title .date {
+    padding-left: 20px;
+}
+
+#news .col-xs-12 img {
+    position: relative;
+    width: 100%;
+}
+
+#news .col-xs-12 figcaption {
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+}
+
+#contact input {
+    width: 66%;
+}
+
+.resizable(@direction:both) {
+    // Options: horizontal,vertical,both resize;
+    // Safari fix overflow: auto;
+}
